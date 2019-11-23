@@ -1,11 +1,10 @@
 import React from 'react';
-import './App.css';
-import FormEmployee from './components/FormEmployee/FormEmployee';
+import FormMovie from './components/FormMovie/FormMovie';
 
 function App() {
   return (
     <div className="App">
-      <FormEmployee />
+      <FormMovie />
     </div>
   );
 }

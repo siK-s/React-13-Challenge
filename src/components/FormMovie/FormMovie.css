@@ -1,0 +1,74 @@
+body {
+    background-color: #faa2c1;
+    color: #fff;
+    margin: 0 auto;
+}
+h2 {
+    margin-top: 3em;
+}
+h2 span { 
+    font-weight: lighter;
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+.FormMovie {
+    width: 60%;
+    margin: 0 auto;
+}
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+legend { 
+    font-size: 1.2em;
+    color: #a61e4d;
+}
+.form-data {
+    width: 100%;
+    padding: .5em;
+    margin: 1.2em auto;
+    -webkit-border-radius: .3em;
+    -moz-border-radius: .3em;
+    border-radius: .3em;
+    background-color: #fff;
+    text-align: center;
+}
+.form-data label, .form-data input[type='text'], .form-data textarea {
+    display: inline-block;
+    width: 90%;
+    text-align: left;
+    border: none;
+}
+.form-data input:focus, .form-data textarea:focus { 
+    outline: none;
+    background-color: transparent;
+}
+.form-data label{
+    margin-top: 1em;
+    font-size: .875em;
+    text-transform: uppercase;
+    color: #f783ac;
+}
+.form-data input[type='text'], .form-data textarea {
+    margin: 0.5em auto;
+    padding: .5em;
+    font-size: 1em;
+}
+.form-data textarea { 
+    min-height: 4.5em;
+    resize: none;
+}
+.form-data.submit {
+    background-color: transparent;
+    text-align: left;
+}
+.form-data input[type='submit'] {
+    background-color: #a61e4d;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: .3em;
+    padding: 1em 3em;
+}
