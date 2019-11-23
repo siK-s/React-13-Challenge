@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import FormEmployee from './components/FormEmployee/FormEmployee';
 
 function App() {
   return (
     <div className="App">
-      <p>React 13</p>
+      <FormEmployee />
     </div>
   );
 }
