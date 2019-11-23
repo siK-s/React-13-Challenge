@@ -35,7 +35,8 @@ class FormEmployee extends React.Component {
         if (res.error) {
           alert(res.error);
         } else {
-          alert(`Employé ajouté avec l'ID ${res}!`);
+          console.log(res);
+          alert(`Employé ajouté avec l'ID ${res.id}!`);
         }
       })
       .catch(e => {
